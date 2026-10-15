@@ -1,0 +1,14 @@
+# Ignorar pastas de dados
+data/raw/*
+data/processed/*
+
+# Ignorar checkpoints do Jupyter e caches do Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Ignorar ambientes virtuais
+.venv/
+venv/
+env/
+EOT
